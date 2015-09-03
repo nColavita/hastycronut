@@ -57,27 +57,32 @@ get '/review' do
 	erb :review
 end
 
-post '/email' do
-	 website = params["website"]
-	 likecronut = params["likecronut"]
+post '/review' do
+	 email = params["email"]
+	 fname = params["fname"]
+	 lname = params["lname"]
+
+	 website = params["rating"]
+	 likecronut = params["likeness"]
 	 
+	 sender = "#{fname} #{lname}"
 	 email_body = "Your website rating is #{website}. The customer thinks the cronuts are #{likecronut}"
 		 
-m = Mandrill::API.new
-message = {  
- :subject=> "New review",  
- :from_name=> sender,  
- :text=> email_body,  
- :to=>[  
-   {  
-     :email=> "lex213075@gmail.com",  
-     :name=> "Alex McLean"  
-   }  
- ],  
- :html=>"<html><h1>#{email_body}</h1></html>",  
- :from_email=> email 
-}  
-sending = m.messages.send message  
-puts sending
-redirect to '/home'
+	m = Mandrill::API.new
+	message = {  
+	 :subject=> "New review",  
+	 :from_name=> sender,  
+	 :text=> email_body,  
+	 :to=>[  
+	   {  
+	     :email=> "lex213075@gmail.com",  
+	     :name=> "Alex McLean"  
+	   }  
+	 ],  
+	 :html=>"<html><h1>#{email_body}</h1></html>",  
+	 :from_email=> email 
+	}  
+	sending = m.messages.send message  
+	puts sending
+	redirect to '/order'
 end

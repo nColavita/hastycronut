@@ -1,26 +1,43 @@
 <h1>Thank you for placing your order with us!</h1>
 
-<form action="/email" method="POST">
+<form action="/review" method="POST">
 	
 	<h3>Please rate our service for you</h3>
 	
 	<p>
+		<label for="fname">First Name</label><br>
+		<input type="text" name="fname"><br>
+		<label for="lname">Last Name</label><br>
+		<input type="text" name="lname"><br>	
+		<label for="email">Email</label><br>
+		<input type="email" name="email"><br>
+	</p>
+	
+	<p>
 		<label for="website">How would you rate our website on easiness to use? (5 being the highest rating)</label><br>
-		<select name="5">
-			<option value="4">4</option>
-			<option value="3">3</option>
-			<option value="2">2</option>
+		<select name="rating">
+			<option value=" "></option>
 			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
 		</select><br>
 		
 		<label for="likecronut">How much do you like our cronuts?</label><br>
-		<select name="They are cronut-licious!">
-			<option value="One of the best in town"</option>
-			<option value="So good in my belly"</option>
-			<option value="Good but have had better cronuts"</option>
-			<option value="Not so nuts for cronuts"</option>
+		<select name="likeness">
+			<option value=" "></option>
+			<option value="great">They are cronut-licious!</option>
+			<option value="good">One of the best in town</option>
+			<option value="average">So good in my belly</option>
+			<option value="bad">Good but have had better cronuts"</option>
+			<option value="worst">Not so nuts for cronuts"</option>
 		</select>
 		
+	</p>
+	
+	<p>
+		<input type="submit" value="Submit">
 	</p>
 	
 </form>
