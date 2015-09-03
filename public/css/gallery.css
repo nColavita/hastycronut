@@ -11,7 +11,7 @@ body{
 }
 
 #position{
-	margin-right: 45px;
+	margin-right: 65px;
 }
 
 #navcontent{
@@ -48,6 +48,7 @@ body{
 	/*border: solid green 1px;*/
 	color: #8C6B4D;
 	font-family: Gill Sans, sans-serif;
+	font-size: 1.1em;
 	display: inline-block;
 	list-style: none;
 	margin-left: 0px;
@@ -62,6 +63,10 @@ body{
 a{
 	color: inherit;
 	text-decoration: none;
+}
+
+a:hover{
+	opacity: .1;
 }
 
 
