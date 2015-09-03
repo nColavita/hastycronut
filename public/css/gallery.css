@@ -1,6 +1,8 @@
+/********** NAV BAR LAYOUT **********/
 body{
 	margin: 0;
 	/*padding: 0;*/
+	background-image: url("../imgs/background3.png");
 }
 
 #headbar{
@@ -8,10 +10,12 @@ body{
 	padding: 0;
 	max-width: 100%;
 	height: 120px;
+	/*position: fixed;*/
 }
 
 #position{
 	margin-right: 65px;
+	/*margin-top: 15px;*/
 }
 
 #navcontent{
@@ -48,7 +52,7 @@ body{
 	/*border: solid green 1px;*/
 	color: #8C6B4D;
 	font-family: Gill Sans, sans-serif;
-	font-size: 1.1em;
+	font-size: 1.15em;
 	display: inline-block;
 	list-style: none;
 	margin-left: 0px;
@@ -68,5 +72,44 @@ a{
 a:hover{
 	opacity: .1;
 }
+/********** NAV BAR LAYOUT **********/
+
+
+/********** Gallery LAYOUT **********/
+
+#galleryWelcome{
+	/*border: solid black 1px;*/
+	border-top: solid #8C6B4D 1px;
+	font-family: Gill Sans, sans-serif;
+	color: #8C6B4D;
+	text-align: center;
+	margin-left: 300px;
+	margin-top: 85px;
+	width: 650px;
+}
+
+.welcome{
+	font-family: "Times New Roman";
+}
+
+#galleryHolder{
+	/*border: solid red 1px;*/
+	text-align: center;
+	margin-left: 200px;
+	margin-top: 65px;
+	width: 850px;
+}
+
+.galleryImages{
+	background-color: #CCC;
+	border: solid black 1px;
+	margin: 30px;
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+}
+
+
+
 
 
