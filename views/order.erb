@@ -2,34 +2,49 @@
 
 <form action="/email" method="POST">
 	
+	<h3>Delivery Information</h3>
+
 	<p>
 		<label for="fname">First Name</label><br>
-		<input type="text" name="fname">
+		<input type="text" name="fname"><br>
 		<label for="lname">Last Name</label><br>
-		<input type="text" name="lname">
-	</p>
+		<input type="text" name="lname"><br>
 	
-	<p> 
 		<label for="email">Email</label><br>
-		<input type="email" name="email">
-	</p>
-	
-	<p>
+		<input type="email" name="email"><br>
+
 		<label for="phone">Phone</label><br>
 		<input type="number" name="phone">
 	</p>
 	
-	<h3>Delivery Information</h3>
-	<p>
+		<p>
 		<label for="address">Address</label><br>
-		<input type="text" name="address">
+		<input type="text" name="address"><br>
 		<label for="city">City</label><br>
-		<input type="text" name="city">
+		<input type="text" name="city"><br>
 		<label for="state">State</label><br>
-		<input type="text" name="state">
+		<input type="text" name="state"><br>
 		<label for="zip">Zip Code</label><br>
-		<input type="number" name="zip">
-		<label for="floor/suite#">Floor / Suite #</label><br>
-		<input type="text" name="floor/suite">
+		<input type="number" name="zip"><br>
+		<label for="floorsuite">Floor / Suite #</label><br>
+		<input type="text" name="floorsuite">
 	</p>	
 	
+	<h3>Card Information</h3>
+	<p>
+		<label for="cardname">Name on Card</label><br>
+		<input type="text" name="cardname"><br>
+		<label for="cardnumber">Card Number</label><br>
+		<input type="number" name="cardnumber"><br>
+		<label for="expirationdate">Expiration Date</label><br>
+		<input type="text" name="expirationdate"><br>
+		<label for="cvc">CVC</label><br>
+		<input type="number" name="cvc">
+	</p>
+	
+	<p>
+		<input type="submit" value="Place order!">
+	</p>
+	
+</form> 
+		
