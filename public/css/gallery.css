@@ -10,9 +10,13 @@ body{
 	height: 120px;
 }
 
+#position{
+	margin-right: 45px;
+}
+
 #navcontent{
 	/*border: solid pink 2px;*/
-	/*text-align: center;*/
+	text-align: center;
 	height: 100%;
 }
 
@@ -53,6 +57,11 @@ body{
 
 .line{
 	border-right: solid #8C6B4D 1px;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
 }
 
 
