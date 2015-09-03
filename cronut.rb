@@ -3,17 +3,17 @@ require 'sinatra'
 require 'mandrill'
 
 get '/home' do
-	erb: homepage
+	erb :homepage
 end
 
 get '/gallery' do
-	erb: gallery
+	erb :gallery
 end
 
 get '/order' do
-	erb: order
+	erb :order
 end
 
 get '/review' do
-	erb: review
+	erb :review
 end
