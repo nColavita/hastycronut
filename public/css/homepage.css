@@ -1,0 +1,36 @@
+body {
+	max-width: 1000;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+	color: brown;
+}
+
+.donut {
+	display: inline;
+}
+
+.croissant {
+	display: inline;
+}
+
+.cronut {
+	display: inline;
+}
+
+/*.namers h1 {
+	display: inline;
+	visibility: hidden;
+}
+
+.theimages img.donutimg {
+	position: relative;
+	left: -300px;
+	opacity: .25;
+}
+
+.theimages img.croissantimg {
+	position: relative;
+	right: -650px;
+	opacity: .25;
+}*/
+
