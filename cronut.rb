@@ -84,5 +84,5 @@ post '/review' do
 	}  
 	sending = m.messages.send message  
 	puts sending
-	redirect to '/order'
+	redirect to '/home'
 end
