@@ -1,16 +1,16 @@
-body{
+/*body{
 	margin: 0;
 	/*padding: 0;*/
 }
 
-#headbar{
+/*#headbar{
 	/*background-color: #CCC;*/
 	padding: 0;
 	max-width: 100%;
 	height: 120px;
 }
 
-#position{
+/*#position{
 	margin-right: 65px;
 }
 
@@ -20,13 +20,13 @@ body{
 	height: 100%;
 }
 
-#logo{
+/*#logo{
 	/*border: solid red 1px;*/
 	display: inline-block;
 	height: 100%;
 }
 
-.nav {
+/*.nav {
 	/*border: solid blue 1px;*/
 	display: inline-block;
 	vertical-align: top;
@@ -38,14 +38,14 @@ body{
 	margin-right: 110px;*/
 }
 
-.nav ul{
+/*.nav ul{
 	text-align: center;
 	padding-left: 3px;
 	padding-right: 3px;
 }
 
 .nav li {
-	/*border: solid green 1px;*/
+	/*border: solid green 1px;
 	color: #8C6B4D;
 	font-family: Gill Sans, sans-serif;
 	font-size: 1.1em;
@@ -56,7 +56,7 @@ body{
 	padding-left: 7px;
 }
 
-.line{
+/*.line{
 	border-right: solid #8C6B4D 1px;
 }
 
