@@ -99,15 +99,59 @@ a:hover{
 	margin-top: 65px;
 	width: 850px;
 }
+/*** The Main Images of the Gallery ***/
+
+#galleryImage1{
+	background-image: url("../imgs/gallery_cronut1");
+}
 
 .galleryImages{
 	background-color: #CCC;
-	border: solid black 1px;
 	margin: 30px;
 	width: 200px;
 	height: 200px;
 	display: inline-block;
+	border-radius: 15px;
 }
+
+
+/*The text inside each image*/
+
+.text_fadein{
+	/*visibility: hidden;*/
+	display: none;
+}
+
+.galleryImageTextField{
+	/*border: solid blue 1px;*/
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 180px;
+	height: 180px;
+	background-color: black;
+	opacity: .5;
+}
+
+.galleryImageDescription{
+	font-family: Gill Sans, sans-serif;
+	font-size: 1.2em;
+	padding: 4px;
+	text-align: center;
+	color: yellow;
+	margin: 0;
+	/*display: inline-block;*/
+}
+
+.galleryImagePrice{
+	font-family: "Times New Roman";
+	color: yellow;
+	/*display: inline-block;*/
+}
+
+#shake{
+	position: relative;
+}
+
 
 
 
