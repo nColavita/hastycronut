@@ -1,7 +1,13 @@
-
-
 .cronut img {
 	margin-right: 10px;
+}
+
+.cronut p {
+	margin-right: 20px;
+}
+
+.cronut h1 {
+	margin-left: 220px
 }
 
 body {
@@ -22,21 +28,3 @@ body {
 .cronut {
 	display: inline;
 }
-
-/*.namers h1 {
-	display: inline;
-	visibility: hidden;
-}
-
-.theimages img.donutimg {
-	position: relative;
-	left: -300px;
-	opacity: .25;
-}
-
-.theimages img.croissantimg {
-	position: relative;
-	right: -650px;
-	opacity: .25;
-}*/
-
