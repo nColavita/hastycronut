@@ -1,17 +1,19 @@
+<<<<<<< HEAD
 /*body{
-	margin: 0;
-	/*padding: 0;*/
-}
+=======
+/********** NAV BAR LAYOUT **********/
 
 /*#headbar{
 	/*background-color: #CCC;*/
 	padding: 0;
 	max-width: 100%;
 	height: 120px;
+	/*position: fixed;*/
 }
 
 /*#position{
 	margin-right: 65px;
+	/*margin-top: 15px;*/
 }
 
 #navcontent{
@@ -48,7 +50,7 @@
 	/*border: solid green 1px;
 	color: #8C6B4D;
 	font-family: Gill Sans, sans-serif;
-	font-size: 1.1em;
+	font-size: 1.15em;
 	display: inline-block;
 	list-style: none;
 	margin-left: 0px;
@@ -68,5 +70,114 @@ a{
 a:hover{
 	opacity: .1;
 }
+/********** NAV BAR LAYOUT **********/
+
+
+/********** Gallery LAYOUT **********/
+
+#galleryWelcome{
+	/*border: solid black 1px;*/
+	border-top: solid #8C6B4D 1px;
+	font-family: Gill Sans, sans-serif;
+	color: #8C6B4D;
+	text-align: center;
+	margin-left: 300px;
+	margin-top: 85px;
+	width: 650px;
+}
+
+.welcome{
+	font-family: "Times New Roman";
+}
+
+#galleryHolder{
+	/*border: solid red 1px;*/
+	text-align: center;
+	margin-left: 200px;
+	margin-top: 65px;
+	width: 850px;
+}
+/*** The Main Images of the Gallery ***/
+
+#galleryImage1{
+	background-image: url("../imgs/gallery_cronut1");
+}
+
+#galleryImage2{
+	background-image: url("../imgs/gallery_cronut2.jpg");
+}
+
+#galleryImage3{
+	background-image: url("../imgs/gallery_cronut3.jpg");
+}
+
+#galleryImage4{
+	background-image: url("../imgs/gallery_cronut4.jpg");
+}
+
+#galleryImage5{
+	background-image: url("../imgs/gallery_cronut5.jpg");
+}
+
+#galleryImage6{
+	background-image: url("../imgs/gallery_cronut6.jpg");
+}
+
+.galleryImages{
+	background-color: #CCC;
+	margin: 30px;
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	border-radius: 15px;
+}
+
+
+/*The text inside each image*/
+
+#text_fadein1,#text_fadein2,#text_fadein3,#text_fadein4,#text_fadein5,#text_fadein6{
+	display: none;
+}
+
+.galleryImageTextField{
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 180px;
+	height: 180px;
+	background-color: black;
+	opacity: .7;
+	border-radius: 15px;
+}
+
+.galleryImageDescription{
+	font-family: Gill Sans, sans-serif;
+	font-size: 1.2em;
+	padding: 4px;
+	text-align: center;
+	color: white;
+	margin: 0;
+	padding-top: 30px;
+	/*display: inline-block;*/
+}
+
+.galleryImagePrice{
+	font-family: "Times New Roman";
+	color: white;
+	/*display: inline-block;*/
+}
+
+.shake{
+	vertical-align: top;
+	position: relative;
+	display: inline-block;
+}
+
+/*#holder{
+	background-color: pink;
+}*/
+
+
+
+
 
 
