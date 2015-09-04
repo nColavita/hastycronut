@@ -1,8 +1,14 @@
+
+
+.cronut img {
+	margin-right: 10px;
+}
+
 body {
 	max-width: 1000;
 	margin: 0 auto;
 	font-family: Arial, sans-serif;
-	color: brown;
+	color: #8C6B4D;
 }
 
 .donut {
