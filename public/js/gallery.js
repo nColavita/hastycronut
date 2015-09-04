@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-//Creating a Jiggle Function to rotate the images
+//Creating a Jiggle Method to shift the images
 	$.fn.jiggle = function(){
 
 		var times = 6;
@@ -19,15 +19,36 @@ $(document).ready(function(){
 		}
 	};
 
-
+//Calling the jiggle Method on the image selected
 	$(".shake").click(function(){
 		$(this).jiggle();
 	})
 
 
 // fade in text
-	$(".galleryImages").click(function(){
-		$(".text_fadein").delay(300).fadeIn(2000);
+	$("#galleryImage1").click(function(){
+		$("#text_fadein1").delay(300).fadeIn(2000);
 	})
 
-})
+	$("#galleryImage2").click(function(){
+		$("#text_fadein2").delay(300).fadeIn(2000);
+	})
+
+	$("#galleryImage3").click(function(){
+		$("#text_fadein3").delay(300).fadeIn(2000);
+	})
+
+	$("#galleryImage4").click(function(){
+		$("#text_fadein4").delay(300).fadeIn(2000);
+	})
+
+	$("#galleryImage5").click(function(){
+		$("#text_fadein5").delay(300).fadeIn(2000);
+	})
+
+	$("#galleryImage6").click(function(){
+		$("#text_fadein6").delay(300).fadeIn(2000);
+	})
+
+
+});

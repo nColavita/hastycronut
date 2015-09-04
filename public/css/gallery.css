@@ -106,23 +106,23 @@ a:hover{
 }
 
 #galleryImage2{
-	background-image: url("../imgs/gallery_cronut1");
+	background-image: url("../imgs/gallery_cronut2.jpg");
 }
 
 #galleryImage3{
-	background-image: url("../imgs/gallery_cronut1");
+	background-image: url("../imgs/gallery_cronut3.jpg");
 }
 
 #galleryImage4{
-	background-image: url("../imgs/gallery_cronut1");
+	background-image: url("../imgs/gallery_cronut4.jpg");
 }
 
 #galleryImage5{
-	background-image: url("../imgs/gallery_cronut1");
+	background-image: url("../imgs/gallery_cronut5.jpg");
 }
 
 #galleryImage6{
-	background-image: url("../imgs/gallery_cronut1");
+	background-image: url("../imgs/gallery_cronut6.jpg");
 }
 
 .galleryImages{
@@ -137,19 +137,18 @@ a:hover{
 
 /*The text inside each image*/
 
-.text_fadein{
-	/*visibility: hidden;*/
+#text_fadein1,#text_fadein2,#text_fadein3,#text_fadein4,#text_fadein5,#text_fadein6{
 	display: none;
 }
 
 .galleryImageTextField{
-	/*border: solid blue 1px;*/
 	margin: 0 auto;
 	margin-top: 10px;
 	width: 180px;
 	height: 180px;
 	background-color: black;
-	opacity: .5;
+	opacity: .7;
+	border-radius: 15px;
 }
 
 .galleryImageDescription{
@@ -157,21 +156,27 @@ a:hover{
 	font-size: 1.2em;
 	padding: 4px;
 	text-align: center;
-	color: yellow;
+	color: white;
 	margin: 0;
+	padding-top: 30px;
 	/*display: inline-block;*/
 }
 
 .galleryImagePrice{
 	font-family: "Times New Roman";
-	color: yellow;
+	color: white;
 	/*display: inline-block;*/
 }
 
 .shake{
+	vertical-align: top;
 	position: relative;
 	display: inline-block;
 }
+
+/*#holder{
+	background-color: pink;
+}*/
 
 
 
