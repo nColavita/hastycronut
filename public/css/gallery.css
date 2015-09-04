@@ -105,6 +105,26 @@ a:hover{
 	background-image: url("../imgs/gallery_cronut1");
 }
 
+#galleryImage2{
+	background-image: url("../imgs/gallery_cronut1");
+}
+
+#galleryImage3{
+	background-image: url("../imgs/gallery_cronut1");
+}
+
+#galleryImage4{
+	background-image: url("../imgs/gallery_cronut1");
+}
+
+#galleryImage5{
+	background-image: url("../imgs/gallery_cronut1");
+}
+
+#galleryImage6{
+	background-image: url("../imgs/gallery_cronut1");
+}
+
 .galleryImages{
 	background-color: #CCC;
 	margin: 30px;
@@ -148,8 +168,9 @@ a:hover{
 	/*display: inline-block;*/
 }
 
-#shake{
+.shake{
 	position: relative;
+	display: inline-block;
 }
 
 
