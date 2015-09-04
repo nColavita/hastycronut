@@ -1,50 +1,34 @@
-<h1>Fill Out Your Information Here</h1>
-
-<form action="/email" method="POST">
+<h1 id="filloutinfo">Fill Out Your Information Here</h1>
+	<hr>
+	<form action="/email" method="POST">
+		<div class="form-style-6">
 	
-	<h3>Delivery Information</h3>
-
-	<p>
-		<label for="fname">First Name</label><br>
-		<input type="text" name="fname"><br>
-		<label for="lname">Last Name</label><br>
-		<input type="text" name="lname"><br>
-	
-		<label for="email">Email</label><br>
-		<input type="email" name="email"><br>
-
-		<label for="phone">Phone</label><br>
-		<input type="number" name="phone">
-	</p>
-	
-		<p>
-		<label for="address">Address</label><br>
-		<input type="text" name="address"><br>
-		<label for="city">City</label><br>
-		<input type="text" name="city"><br>
-		<label for="state">State</label><br>
-		<input type="text" name="state"><br>
-		<label for="zip">Zip Code</label><br>
-		<input type="number" name="zip"><br>
-		<label for="floorsuite">Floor / Suite #</label><br>
-		<input type="text" name="floorsuite">
-	</p>	
-	
-	<h3>Card Information</h3>
-	<p>
-		<label for="cardname">Name on Card</label><br>
-		<input type="text" name="cardname"><br>
-		<label for="cardnumber">Card Number</label><br>
-		<input type="number" name="cardnumber"><br>
-		<label for="expirationdate">Expiration Date</label><br>
-		<input type="text" name="expirationdate"><br>
-		<label for="cvc">CVC</label><br>
-		<input type="number" name="cvc">
-	</p>
-	
-	<p>
-		<input type="submit" value="Place order!">
-	</p>
-	
-</form> 
+<!-- 		<form action="/email" method="POST"> -->
+				
+			<h3>Delivery Information</h3>
 		
+				<input type="text" name="fname" placeholder="First Name" />
+				<input type="text" name="lname" placeholder="Last Name" />
+				<input type="email" name="email" placeholder="Email Address" />
+		
+				<input type="number" name="phone" placeholder="Phone" />
+			
+				<input type="text" name="address" placeholder="Address" />
+				<input type="text" name="city" placeholder="City" />
+				<input type="text" name="state" placeholder="State" />
+				<input type="number" name="zip" placeholder="Zip Code" />
+				<input type="text" name="floorsuite" placeholder="Floor/Suite">
+				</div>
+		
+		<div class="form-style-6">
+			
+			<h3>Card Information</h3>
+				<input type="text" name="cardname" placeholder="Name on Card" />
+				<input type="number" name="cardnumber" placeholder="Card Number" />
+				<input type="text" name="expirationdate" placeholder="Expiration Date" />
+				<input type="number" name="cvc" placeholder="CVC" />
+			
+				<input type="submit" value="Place order!">
+		</div>	
+	</form> 
+	

@@ -1,8 +1,10 @@
+<<<<<<< HEAD
 /********** NAV BAR LAYOUT **********/
 body{
 	margin: 0;
 	background-image: url("../imgs/background3.png");
 }
+
 
 #headbar{
 	padding: 0;
@@ -31,7 +33,6 @@ body{
 	padding-left: 60px;
 	padding-right: 60px;
 
-}
 
 .nav ul{
 	text-align: center;
@@ -158,3 +159,13 @@ a:hover{
 	position: relative;
 	display: inline-block;
 }
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+>>>>>>> a6bc70c63faf9ad2b4bb0a2c0b56c564037b301a
