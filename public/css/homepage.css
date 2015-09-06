@@ -19,6 +19,7 @@
 
 .cronut {
 	/*display: inline;*/
+	text-align: center;
 	display: none;
 	float: left;
 	z-index: 2;
