@@ -1,34 +1,40 @@
-<<<<<<< HEAD
-/*
-=======
-/* this is William's homepage.css */
+/********* Home Page *********/
 
-.cronut img {
-	margin-right: 10px;
+#donutCrossaint_Master{
+	/*text-align: center;*/
+	overflow: hidden;
 }
-
-.cronut p {
-	margin-right: 20px;
-}
-
-.cronut h1 {
-	margin-left: 220px
-}
-
-/* YOU CAN BLOW AWAY THIS BODY AND REPLACE WITH YOUR OWN */
 
 .donut {
-	display: inline;
+	display: none;
+	float: left;
 }
 
 .croissant {
-	display: inline;
+	vertical-align: top;
+	display: none;
+	float: right;
+	right: -100px;
 }
 
 .cronut {
-	display: inline;
+	/*display: inline;*/
+	display: none;
+	float: left;
+	z-index: 2;
 }
-*/
 
-/* THIS IS THE END OF HOMEPAGE.CSS 
-*/
+
+.cronut img {
+	/*margin-right: 10px;*/
+}
+
+.cronut p {
+	/*margin-right: 20px;*/
+}
+
+.cronut h1 {
+	/*margin-left: 220px*/
+}
+
+/********* Home Page *********/
