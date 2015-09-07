@@ -25,6 +25,19 @@
 	z-index: 2;
 }
 
+#companyBlock{
+	/*border-top: solid #8C6B4D 1px;*/
+}
+
+.companyText{
+	width: 450px;
+	display: inline-block;
+}
+
+.homeTitles{
+	font-family: Gill Sans, sans-serif;
+}
+
 
 .cronut img {
 	/*margin-right: 10px;*/

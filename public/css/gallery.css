@@ -36,7 +36,7 @@
 }
 
 .nav li {
-    color: #8C6B4D ;
+    color: #595627 ;
     font-family: Gill Sans, sans-serif;
     font-size: 1.15em;
     display: inline-block;
@@ -66,11 +66,15 @@ a:hover{
 #galleryWelcome{
     border-top: solid #8C6B4D  1px;
     font-family: Gill Sans, sans-serif;
-    color: #8C6B4D ;
+    color: #595627;
     text-align: center;
     margin-left: 300px;
     margin-top: 85px;
     width: 650px;
+}
+
+#galleryWelcomeBody{
+    color: #8C6B4D;
 }
 
 .welcome{
@@ -147,6 +151,10 @@ a:hover{
 
 .galleryImagePrice{
     font-family: "Times New Roman";
+    color: white;
+}
+
+.addToCart{
     color: white;
 }
 
