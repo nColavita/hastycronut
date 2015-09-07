@@ -8,7 +8,6 @@ body{
 	margin: 0 auto;
 	font-family: Arial, sans-serif;
 	color: #8C6B4D;
-
 }
 
 
@@ -27,7 +26,6 @@ hr {
 	border-color: #8C6B4D;
 	width: 600px;
 	border-top: 0;
-	
 }
 
 .form-style-6{
@@ -38,6 +36,7 @@ hr {
     background: #F7F7F7;
     display: none;
 }
+
 .form-style-6 h3{
     background: #2E3A5C;
     padding: 20px 0;
@@ -77,6 +76,7 @@ hr {
     color: #555;
     font: 95% Arial, Helvetica, sans-serif;
 }
+
 .form-style-6 input[type="text"]:focus,
 .form-style-6 input[type="date"]:focus,
 .form-style-6 input[type="datetime"]:focus,
@@ -109,6 +109,7 @@ hr {
     border-left-style: none;    
     color: #fff;
 }
+
 .form-style-6 input[type="submit"]:hover,
 .form-style-6 input[type="button"]:hover{
     background: #2E3A5C;

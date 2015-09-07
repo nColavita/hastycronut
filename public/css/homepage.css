@@ -23,6 +23,7 @@
 	display: none;
 	float: left;
 	z-index: 2;
+	margin-left: 15px;
 }
 
 #companyBlock{
