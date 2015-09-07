@@ -39,6 +39,10 @@ body{
 
 #filloutinfo {
 	text-align: center;
+    font-size: 1.8em;
+    margin-top: 85px;
+    margin-bottom: 15px;
+    font-family: "Times New Roman";
 	color: #8C6B4D;
 }
 

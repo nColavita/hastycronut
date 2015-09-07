@@ -36,7 +36,7 @@
 }
 
 .nav li {
-    color: #595627 ;
+    color: #CC9C70 ;
     font-family: Gill Sans, sans-serif;
     font-size: 1.15em;
     display: inline-block;
@@ -64,7 +64,6 @@ a:hover{
 /********** Gallery LAYOUT **********/
 
 #galleryWelcome{
-    border-top: solid #8C6B4D  1px;
     font-family: Gill Sans, sans-serif;
     color: #595627;
     text-align: center;
@@ -78,7 +77,11 @@ a:hover{
 }
 
 .welcome{
+    border-bottom: solid #8C6B4D  1px;
+    color: #8C6B4D;
     font-family: "Times New Roman";
+    font-size: 1.8em;
+    padding-bottom: 15px;
 }
 
 #galleryHolder{
