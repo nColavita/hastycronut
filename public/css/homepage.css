@@ -33,6 +33,13 @@
 .companyText{
 	width: 450px;
 	display: inline-block;
+	text-align: left;
+	text-indent: 20px; 
+}
+
+.deliveryText{
+	border-top: solid #8C6B4D 1px;
+	border-bottom: solid #8C6B4D 1px;
 }
 
 .homeTitles{
