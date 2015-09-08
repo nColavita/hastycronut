@@ -134,9 +134,9 @@ a:hover{
 
 .galleryImageTextField{
     margin: 0 auto;
-    margin-top: 10px;
-    width: 180px;
-    height: 180px;
+    /*margin-top: 10px;*/
+    width: 200px;
+    height: 200px;
     background-color: black;
     opacity: .7;
     border-radius: 15px;

@@ -27,27 +27,27 @@ $(document).ready(function(){
 
 // fade in text
 	$("#galleryImage1").click(function(){
-		$("#text_fadein1").delay(300).fadeIn(2000);
+		$("#text_fadein1").delay(300).fadeIn(1000);
 	})
 
 	$("#galleryImage2").click(function(){
-		$("#text_fadein2").delay(300).fadeIn(2000);
+		$("#text_fadein2").delay(300).fadeIn(1000);
 	})
 
 	$("#galleryImage3").click(function(){
-		$("#text_fadein3").delay(300).fadeIn(2000);
+		$("#text_fadein3").delay(300).fadeIn(1000);
 	})
 
 	$("#galleryImage4").click(function(){
-		$("#text_fadein4").delay(300).fadeIn(2000);
+		$("#text_fadein4").delay(300).fadeIn(1000);
 	})
 
 	$("#galleryImage5").click(function(){
-		$("#text_fadein5").delay(300).fadeIn(2000);
+		$("#text_fadein5").delay(300).fadeIn(1000);
 	})
 
 	$("#galleryImage6").click(function(){
-		$("#text_fadein6").delay(300).fadeIn(2000);
+		$("#text_fadein6").delay(300).fadeIn(1000);
 	})
 
 
